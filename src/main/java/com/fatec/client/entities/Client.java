@@ -4,7 +4,14 @@ public class Client {
     private int id;
     private String name;
     private String email;
-    
+
+
+
+    public Client(int id, String email, String name) {// criado do new Client
+        this.id = id;
+        this.email = email;
+        this.name = name; //this. alguma coisa seria o input daqui de cima (public Client)
+    }
     public int getId() {
         return id;
     }
